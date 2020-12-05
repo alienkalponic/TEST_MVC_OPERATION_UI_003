@@ -128,6 +128,46 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Css\AccountExcel.css" />
+    <Content Include="Assets\Css\accountstyle.css" />
+    <Content Include="Assets\Css\animate.css" />
+    <Content Include="Assets\Css\beardcurmb.css" />
+    <Content Include="Assets\Css\bootstrap.css" />
+    <Content Include="Assets\Css\bootstrap.min.css" />
+    <Content Include="Assets\Css\custom.css" />
+    <Content Include="Assets\Css\dataTables.bootstrap.min.css" />
+    <Content Include="Assets\Css\datepicker.css" />
+    <Content Include="Assets\Css\font-awesome.min.css" />
+    <Content Include="Assets\Css\jquery-confirm.min.css" />
+    <Content Include="Assets\Css\kebab.min.css" />
+    <Content Include="Assets\Css\materialdesignicons.min.css" />
+    <Content Include="Assets\Css\play-sans-font-css.css" />
+    <Content Include="Assets\Css\responsive.bootstrap.min.css" />
+    <Content Include="Assets\Css\Site.css" />
+    <Content Include="Assets\Css\style.css" />
+    <Content Include="Assets\Css\style_loginPage.css" />
+    <Content Include="Assets\Css\vendor.bundle.addons.css" />
+    <Content Include="Assets\Css\vendor.bundle.base.css" />
+    <Content Include="Assets\Css\wizard.css" />
+    <Content Include="Assets\DesignImages\login_background.jpg" />
+    <Content Include="Assets\Scripts\bootstrap-datepicker-common.js" />
+    <Content Include="Assets\Scripts\bootstrap-datepicker.js" />
+    <Content Include="Assets\Scripts\bootstrap.min.js" />
+    <Content Include="Assets\Scripts\Common.min.js" />
+    <Content Include="Assets\Scripts\dataTables.bootstrap4.min.js" />
+    <Content Include="Assets\Scripts\dropdown.min.js" />
+    <Content Include="Assets\Scripts\Gridview-1.0.1.min.js" />
+    <Content Include="Assets\Scripts\Gridview-1.0.2.min.js" />
+    <Content Include="Assets\Scripts\JavaScript-logic.js" />
+    <Content Include="Assets\Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Assets\Scripts\jquery-confirm.min.js" />
+    <Content Include="Assets\Scripts\jquery.dataTables.min.js" />
+    <Content Include="Assets\Scripts\jquery.lazy.min.js" />
+    <Content Include="Assets\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Assets\Scripts\kebab.min.js" />
+    <Content Include="Assets\Scripts\Registration.js" />
+    <Content Include="Assets\Scripts\vendor.bundle.addons.js" />
+    <Content Include="Assets\Scripts\vendor.bundle.base.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -165,11 +205,12 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Script.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Shared\_Login_layout.cshtml" />
+    <Content Include="Views\Shared\_Navbar.cshtml" />
+    <Content Include="Views\login_page.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\Css\" />
-    <Folder Include="Assets\Scripts\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
