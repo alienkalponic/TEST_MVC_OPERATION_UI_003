@@ -121,6 +121,7 @@
     <Compile Include="App_Start\Constant.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AuthenticateController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -150,6 +151,7 @@
     <Content Include="Assets\Css\vendor.bundle.base.css" />
     <Content Include="Assets\Css\wizard.css" />
     <Content Include="Assets\DesignImages\login_background.jpg" />
+    <Content Include="Assets\DesignImages\login_background1.jpg" />
     <Content Include="Assets\Scripts\bootstrap-datepicker-common.js" />
     <Content Include="Assets\Scripts\bootstrap-datepicker.js" />
     <Content Include="Assets\Scripts\bootstrap.min.js" />
@@ -208,6 +210,7 @@
     <Content Include="Views\Shared\_Login_layout.cshtml" />
     <Content Include="Views\Shared\_Navbar.cshtml" />
     <Content Include="Views\login_page.cshtml" />
+    <Content Include="Views\Authenticate\LoginPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
