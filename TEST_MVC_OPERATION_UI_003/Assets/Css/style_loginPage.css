@@ -1,4 +1,7 @@
-﻿* {
+﻿html{
+    scroll-behavior:smooth;
+}
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -313,3 +316,164 @@ padding:80px 0;
     margin-bottom:20px;
 }
 /********************************* our coustomer feedback end **********************************/
+
+/********************************* Contact Us Start**********************************/
+.contactus {
+width:100%;
+height:100vh;
+padding:80px 0;
+position:relative;
+}
+.contactus:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:linear-gradient(330deg,#16c9f6 55%,#fff 0%);
+    z-index:-1;
+}
+.form-button button {
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background: transparent;
+}
+    .form-button button:hover {
+        color: #50d1c0;
+    }
+    form:hover .form-button button {
+        background: #fff;
+        color: #50d1c0;
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    }
+::placeholder{
+    font-size:0.85rem;
+}
+
+/********************************* Contact Us end **********************************/
+
+/********************************* FOOTER START **********************************/
+
+.news-input{
+    border-radius:100px 0px 0px 100px!important;
+    min-width:150px;
+min-height:45px;
+}
+.input-group-text {
+color:#fff!important;
+background:#5bc0de;
+border-radius:0 100px 100px 0!important;
+min-width:130px;
+min-height:40px;
+}
+.footer-section{
+    width:100%;
+    height:auto;
+    padding:70px 0 20px 0;
+    background:#00abff;
+    position:relative;
+}
+.footer-section p{
+    color:#fff;
+
+}
+.footer-section li a{
+    font-size:0.9rem;
+    line-height:1.6;
+    font-weight:400;
+    color:#fff;
+    text-transform:capitalize;
+    
+}
+.footer-section h3{
+    text-transform:uppercase;
+    color:#fff;
+    margin-bottom:25px;
+    font-size:1.2rem;
+    font-weight:600;
+    text-shadow:0 2px 5px rgba(0,0,0,0.3);
+}
+#mybtn{
+    display:none;
+    position:fixed;
+    bottom:20px;
+    right:40px;
+    z-index:99;
+    border:none;
+    color:#fff;
+    background:#00abff;
+    padding:10px;
+    border-radius:10px;
+}
+#mybtn:hover{
+    background:#606060;
+}
+/********************************* FOOTER end **********************************/
+/********************************* media queries **********************************/
+
+@media(min-width:992px) {
+    .nav-item {
+        text-align: center !important;
+    }
+
+    .best-part {
+        height: 600px;
+    }
+
+    .card-second {
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+
+    .happyclient {
+        height: 700px;
+    }
+
+}
+@media(min-width:769px) and (max-width:991px) {
+    .nav-item {
+        text-align: center !important;
+    }
+
+    .best-part {
+        height: 1200px;
+    }
+
+    .card-second {
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+
+    .happyclient {
+        height: 700px;
+    }
+
+}
+@media(max-width:768px){
+    .nav-item{
+        text-align:center!important;
+    }
+    .best-part  {
+        height: 1200px;
+        
+    }
+    .card-second{
+        transform:translateY(0px);
+        margin:30px 0;
+    }
+    .happyclient {
+        height: 1200px;
+    }
+
+    
+}
+
